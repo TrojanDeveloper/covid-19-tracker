@@ -1,0 +1,42 @@
+.map {
+    height: 500px;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 16px;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+
+.map .leaflet-container {
+    height: 100%;
+}
+
+.popup__container {
+    width: 120px;
+}
+
+.popup__country-flag {
+    width: 100%;
+    border-radius: 8px;
+    height: 70px;
+    background-size: cover;
+}
+
+.popup__country-flag img {
+    width: 50px;
+    border-radius: 6px;
+}
+
+.popup__country-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 4px;
+}
+
+.popup__cases,
+.popup__recovered,
+.popup__deaths {
+    margin-top: 5px;
+    font-size: 13px;
+}

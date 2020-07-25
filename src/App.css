@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.app__left {
+  flex: 0.8
+}
+
+.app__right {
+  margin-top: 10px;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: rgba(243, 19, 60);
+}
+
+.app__dropdown {
+  background-color: #fff;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media(max-width:900px) {
+  .app {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,34 @@
+.infoBox {
+    flex: 1;
+    cursor: pointer;
+    transition: all 10s ease-in;
+}
+
+.infoBox:hover {
+    transform: scale(1.02);
+}
+
+.infoBox:not(:last-child) {
+    margin-right: 15px;
+}
+
+.infoBox__cases {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: #CC1034;
+    font-weight: bold;
+}
+
+.infoBox__cases-green {
+    color: lightgreen !important;
+}
+
+.infobox__span {
+    font-size: 0.9rem !important;
+}
+
+.infoBox__total {
+    font-weight: 700 !important;
+    color: #555 !important;
+    font-size: 0.8rem !important;
+}
